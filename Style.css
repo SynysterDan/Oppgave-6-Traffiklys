@@ -1,0 +1,33 @@
+#trafikklys{
+    width: 210px;
+    height: 600px;
+    background-color: #4e4c4c;
+    border-radius: 5em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+}
+.red{
+    background-color: red;
+    
+}
+.yellow{
+    background-color: yellow;
+    
+}
+.green{
+    background-color: green;
+    
+}
+.circle{
+    box-shadow: -5px 10px 20px 10px black inset ;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+.active{
+    opacity: 100%;
+}
